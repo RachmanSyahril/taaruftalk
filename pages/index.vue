@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 table {
   width: 100%;
   margin: 24px 12px;
