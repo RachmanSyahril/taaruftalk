@@ -5,7 +5,7 @@
       <v-card class="my-4 mx-auto">
         <v-img
           class="mx-auto"
-          src="/foto.jpg"
+          src="/taaruftalk/foto.jpg"
           style="width: 45%; margin: auto; border-radius: 50%"
         ></v-img>
 
