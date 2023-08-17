@@ -4,7 +4,7 @@
       Kriteria Pasangan
     </v-expansion-panel-header>
     <v-expansion-panel-content>
-      <v-card>
+      <div>
         <v-card-text>
           <div class="text--primary">
             Kriteria yang diinginkan dari seorang Istri, bagi saya adalah:
@@ -18,7 +18,7 @@
             </p>
           </div>
         </v-card-text>
-      </v-card>
+      </div>
     </v-expansion-panel-content>
   </v-expansion-panel>
 </template>

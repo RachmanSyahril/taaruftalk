@@ -2,7 +2,7 @@
   <v-expansion-panel>
     <v-expansion-panel-header> Data Diri </v-expansion-panel-header>
     <v-expansion-panel-content>
-      <v-card class="my-4 mx-auto">
+      <div class="my-4 mx-auto">
         <v-img
           class="mx-auto"
           src="/taaruftalk/foto.jpg"
@@ -80,7 +80,7 @@
             </template>
           </v-simple-table>
         </v-card-text>
-      </v-card>
+      </div>
     </v-expansion-panel-content>
   </v-expansion-panel>
 </template>

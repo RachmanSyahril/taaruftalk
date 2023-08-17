@@ -28,4 +28,8 @@ table {
   font-size: 15px;
   border-collapse: collapse;
 }
+
+.v-expansion-panel-content__wrap {
+  padding: 0 0 16px;
+}
 </style>

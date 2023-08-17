@@ -4,7 +4,7 @@
       Kelebihan dan Kekurangan
     </v-expansion-panel-header>
     <v-expansion-panel-content>
-      <v-card>
+      <div>
         <v-card-text>
           <div class="text--primary">
             Halaman ini cukup menggambarkan kelebihan dan kekurangan saya: <a
@@ -36,7 +36,7 @@
             </p>
           </div>
         </v-card-text>
-      </v-card>
+      </div>
     </v-expansion-panel-content>
   </v-expansion-panel>
 </template>

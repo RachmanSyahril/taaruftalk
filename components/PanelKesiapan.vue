@@ -2,7 +2,7 @@
   <v-expansion-panel>
     <v-expansion-panel-header> Kesiapan menikah </v-expansion-panel-header>
     <v-expansion-panel-content>
-      <v-card>
+      <div>
         <v-card-text>
           <div
             style="
@@ -32,50 +32,49 @@
               memotivasi untuk Meraih SaMaWa.
             </div>
 
-            <div class="mt-10">Beberapa Rencana Tentang</div>
-            <v-simple-table>
-              <template v-slot:default>
-                <tbody>
-                  <tr
-                    v-for="(d, i) in [
-                      {
-                        title: 'Rumah Tangga',
-                        value:
-                          'Menjadi keluarga kecil yang SaMaWa, Mendidik Anak sesuai dengan Ajaran Islam dan Sunah, Kompak dalam Menjaga Silaturahmi dengan Keluarga.',
-                      },
-                      {
-                        title: 'Keturunan',
-                        value:
-                          'Allah yang menentukan, namun keinginan pribadi dikaruniani 2 Anak Perempuan dan 1 Laki-Laki',
-                      },
-                      {
-                        title: 'Pekerjaan',
-                        value:
-                          'Sangat Berminat untuk memiliki Usaha Pribadi sambil tetap Menata ekonomi harian.',
-                      },
-                      {
-                        title: 'Tempat Tinggal',
-                        value:
-                          'Terdapat Rumah Kecil di Ciwidey yang dapat dipakai, namun diharapkan tidak mengapa jika harus mengontrak dekat dengan lokasi Kerja.',
-                      },
-                      {
-                        title: 'Dakwah Keluarga & Masyarakat',
-                        value:
-                          'Diharapkan berperan aktif dalam Syiar Islam di Masyarakat, seperti mengikuti Kajian, berkumpul dengan orang-orang soleh, rajin berbagi. Hal itu dapat terwujud bila terlebih dahulu dipupuk pondasi Syiar Islam di level Keluarga. ',
-                      },
-                    ]"
-                    :key="i"
-                  >
-                    <td width="30%">{{ d.title }}</td>
-                    <td width="5%">:</td>
-                    <td v-html="d.value"></td>
-                  </tr>
-                </tbody>
-              </template>
-            </v-simple-table>
+            <div class="mt-10 mb-4">Beberapa Rencana Tentang</div>
+
+            <ul>
+              <li
+                class="my-2"
+                v-for="(d, i) in [
+                  {
+                    title: 'Rumah Tangga',
+                    value:
+                      'Menjadi keluarga kecil yang SaMaWa, Mendidik Anak sesuai dengan Ajaran Islam dan Sunah, Kompak dalam Menjaga Silaturahmi dengan Keluarga.',
+                  },
+                  {
+                    title: 'Keturunan',
+                    value:
+                      'Allah yang menentukan, namun keinginan pribadi dikaruniani 2 Anak Perempuan dan 1 Laki-Laki',
+                  },
+                  {
+                    title: 'Pekerjaan',
+                    value:
+                      'Sangat Berminat untuk memiliki Usaha Pribadi sambil tetap Menata ekonomi harian.',
+                  },
+                  {
+                    title: 'Tempat Tinggal',
+                    value:
+                      'Terdapat Rumah Kecil di Ciwidey yang dapat dipakai, namun diharapkan tidak mengapa jika harus mengontrak dekat dengan lokasi Kerja.',
+                  },
+                  {
+                    title: 'Dakwah Keluarga & Masyarakat',
+                    value:
+                      'Diharapkan berperan aktif dalam Syiar Islam di Masyarakat, seperti mengikuti Kajian, berkumpul dengan orang-orang soleh, rajin berbagi. Hal itu dapat terwujud bila terlebih dahulu dipupuk pondasi Syiar Islam di level Keluarga. ',
+                  },
+                ]"
+                :key="i"
+              >
+                {{ d.title }}:
+                <p style="margin-top: 4px">
+                  {{ d.value }}
+                </p>
+              </li>
+            </ul>
           </div>
         </v-card-text>
-      </v-card>
+      </div>
     </v-expansion-panel-content>
   </v-expansion-panel>
 </template>
