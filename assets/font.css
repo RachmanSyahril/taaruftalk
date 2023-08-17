@@ -1,0 +1,57 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html, body {
+    font-family: 'Lato', sans-serif;
+}
+
+#app {
+    font-family: 'Lato', sans-serif;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400&display=swap');
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#app {
+  font-family: 'Poppins', sans-serif;
+}
+
+.primary-portal {
+  background-color: #c90535 !important;
+  color: white !important;
+}
+
+.primary-portal--text {
+  color: #c90535 !important;
+}
+
+.grey-portal {
+  background-color: #f5f7fa !important;
+  color: #c90535 !important;
+}
+
+.primary-text {
+  color: #c90535 !important;
+}
+
+.grey-text {
+  color: #717171 !important;
+}
+
+.sky-blue {
+  background-color: #f5f7fa !important;
+}
+
+.blue-text {
+  color: #0b4f6c !important;
+}
+
+thead > tr > th {
+  background-color: #c90535 !important;
+  color: white !important;
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+}
