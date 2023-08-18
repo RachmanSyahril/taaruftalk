@@ -1,7 +1,7 @@
 <template>
   <v-expansion-panel>
     <v-expansion-panel-header> Data Diri </v-expansion-panel-header>
-    <v-expansion-panel-content>
+    <v-expansion-panel-content style="padding: 0">
       <div class="my-4 mx-auto">
         <v-img
           class="mx-auto"

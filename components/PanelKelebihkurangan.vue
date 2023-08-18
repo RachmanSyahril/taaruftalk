@@ -29,9 +29,9 @@
               Kekurangan
               <ul>
                 <li>Perfeksionis</li>
+                <li>Tidak Sabaran</li>
                 <li>Mudah Kehilangan Fokus</li>
                 <li>Butuh Tujuan / Motivasi / Moody</li>
-                <li>Gampang Tertutup / Menutup Diri</li>
               </ul>
             </p>
           </div>
